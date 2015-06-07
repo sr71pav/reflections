@@ -5,3 +5,7 @@ THis creates the .git directory which tells git that this directory contains a r
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area contains the changes to the working directory that will be committed to the repository.  It provides an intermediate area that gives the user the ability to re-check that they are committing the files they want to and not committing those that they do not want to commit.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+Using "git diff --staged," I can view all of the changes in teh staging area and make sure that each of the changes is towards one logical change.
