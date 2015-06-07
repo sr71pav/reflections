@@ -1,0 +1,3 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+THis creates the .git directory which tells git that this directory contains a repository.  This does not add any files to the repository, but preps the repository for files to be added to it.
