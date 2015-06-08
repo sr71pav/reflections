@@ -9,3 +9,7 @@ The staging area contains the changes to the working directory that will be comm
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 Using "git diff --staged," I can view all of the changes in teh staging area and make sure that each of the changes is towards one logical change.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be useful when trying out something new, adding a feature, etc.  Basically, any situation that I would want to be able to track changes in, but may not want each of those commits on the master branch.
