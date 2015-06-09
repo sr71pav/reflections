@@ -13,3 +13,7 @@ Using "git diff --staged," I can view all of the changes in teh staging area and
 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches can be useful when trying out something new, adding a feature, etc.  Basically, any situation that I would want to be able to track changes in, but may not want each of those commits on the master branch.
+
+5) How do the diagrams help you visualize the branch structure?
+
+The diagrams help to show exactly where branches diverge, finding the last common commit that was shared between two or more branches
