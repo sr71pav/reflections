@@ -17,3 +17,7 @@ Branches can be useful when trying out something new, adding a feature, etc.  Ba
 5) How do the diagrams help you visualize the branch structure?
 
 The diagrams help to show exactly where branches diverge, finding the last common commit that was shared between two or more branches
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+This merges the changes made between two separate branches. We represent it on the diagram as we do so as to show that there are multiple parents to the final commit and to show the full history that led to the merged commit.
