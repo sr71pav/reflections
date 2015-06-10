@@ -21,3 +21,7 @@ The diagrams help to show exactly where branches diverge, finding the last commo
 6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 This merges the changes made between two separate branches. We represent it on the diagram as we do so as to show that there are multiple parents to the final commit and to show the full history that led to the merged commit.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic really speeds up the process, though it may sometime incorrectly merge files and make incorrect assumptions.  The example showed an instance where it did not highlight a conflict (one had the code inline, the other broke it out into a function).  Manual merges may be more robust in terms of discussion, but manual can be very tedious, time consuming, and error prone itself.
