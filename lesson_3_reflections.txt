@@ -20,3 +20,7 @@ Clone - Copies the original repository and maintains a direct link back to it vi
 
 Branches - In a given repository, this creates a new path for development.  Perhaps to add a feature that is intended to be merged
    back into the master.
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows work to proceed when not able to connect to the remote location while maintaining a full history.
