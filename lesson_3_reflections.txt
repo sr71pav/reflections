@@ -9,3 +9,14 @@ this also creates a full backup of the repository, should something happen local
 
 It's not necessarily true that you want to merge the changes at any particular time.  Manual gives more control
 over the process.  If it's wrong, it's on me, not the tool.
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - Similar to a branch, except it's the entire repository.  This also does not have a direct tie back to the original repository.
+  Use this when the original owner of the repository is not interested in your changes (or you would be a contributor)
+
+Clone - Copies the original repository and maintains a direct link back to it via remotes. Use this when you want to be able to push/pull
+  with the original repository.
+
+Branches - In a given repository, this creates a new path for development.  Perhaps to add a feature that is intended to be merged
+   back into the master.
