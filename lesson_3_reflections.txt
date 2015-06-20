@@ -1,0 +1,6 @@
+1) When would you want to use a remote repository rather than keeping all your work local?
+
+There are two reasons for having a remote repository, either of which may be valid in their own right.
+The first is if I want to share the repository with someone else.  Although this could be accomplished 
+via e-mail, a remote location accessible by both is much easier to maintain.  The second reason it that
+this also creates a full backup of the repository, should something happen locally.
