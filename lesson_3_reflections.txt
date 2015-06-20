@@ -29,3 +29,8 @@ This allows work to proceed when not able to connect to the remote location whil
 
 Without Git or GitHub, a lot of the merging becomes a manual exercise.  Not only would I have to find every difference, but the merges would
 have to be done in a manual manner (e.g. copy/paste
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You should almost never make changes directly to master.  Master should be kept in such a way that the tip is never broken.  The advantage
+to making changes in the master is that it's very simple to do, and requires less knowledge of how to use Git.
