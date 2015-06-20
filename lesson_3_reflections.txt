@@ -4,3 +4,8 @@ There are two reasons for having a remote repository, either of which may be val
 The first is if I want to share the repository with someone else.  Although this could be accomplished 
 via e-mail, a remote location accessible by both is much easier to maintain.  The second reason it that
 this also creates a full backup of the repository, should something happen locally.
+
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It's not necessarily true that you want to merge the changes at any particular time.  Manual gives more control
+over the process.  If it's wrong, it's on me, not the tool.
